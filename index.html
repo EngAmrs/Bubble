@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Bubble">
+        <title>Bubble</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/noramlize.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/Swiper.css">
+        <link rel="stylesheet" href="css/css.css">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!--loading page-->
+        <div class="loading">
+            <div class="box-loading">
+                <div class="cirlce-wave cirlce-wave--1"></div>
+                <div class="cirlce-wave cirlce-wave--2"></div>
+                <div class="cirlce-wave cirlce-wave--3"></div>
+                <div class="cirlce-wave cirlce-wave--4"></div>
+                <div class="cirlce-wave cirlce-wave--5"></div>
+            </div>
+        </div>
+        <!--scrollUp-->
+        <button id="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        <!--start Navbar-->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header col-md-3">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                
+              </button>
+              <a class="navbar-brand" href="#">Bubble</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div  class="collapse navbar-collapse col-md-3 col-sm-3 " id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav ">
+                <li class="active home"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+                <li class="features"><a href="#features">Features</a></li>
+                <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Langs <span class="caret"></span></a>
+
+                      <ul class="dropdown-menu">
+                        <li><a href="#">PHP</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">MySQL</a></li>
+                        <li><a href="#">Angular</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">And more</a></li>   
+                      </ul>
+                  </li>
+                  
+                    <li class="screens"><a href="#screens">Screens</a></li>
+                    <li class="dropdown pricing">
+                          <a href="#pricing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prices<span class="caret"></span></a>   
+                          <ul class="dropdown-menu">
+                            <li><a>Stater Plan</a></li>
+                            <li role="separator" class="divider"></li>  
+                            <li><a>Enterprise Plan</a></li>
+                            <li><a>Unlimited Plan</a></li>
+                            <li><a href="#">Special Plan</a></li>
+                          </ul>
+                    </li>
+                    <li class="contact"><a href="#contact">Contact</a></li>
+                    <button class="nav-button btn-mr pill th-primary-outline " > GET THE APP</button>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <!--end Navbar-->
+        
+        <!--start home-->
+        <section id="home">
+            <div class="container">
+                <div class="content row">
+                    <article class="col-lg-7 col-xs-12">
+                        <h1 class="wow fadeInUp">Make Your Life More Easier</h1>
+                        <p class="lead wow fadeInDown">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore et dolore magna.</p>
+                        <button><i class="fa fa-apple" aria-hidden="true"></i>App Store</button>
+                        <button><i class="store"><img src="images/Home/nexus2cee_ic_launcher_play_store_new-1.png" style="width: 18%"></i>Play Store</button>
+                    </article>
+                    <div class="wow zoomIn img col-lg-5 hidden-xs hidden-sm hidden-md"><img src="images/Home/mbl1.png" style="width: 120%;"></div>
+                </div>
+            </div>
+        </section>
+        <!--end home-->
+        <!--start Features-->
+        <section id="features">
+            <div class="container">
+                <article class="col-xs-12">
+                    <h2>Amazing Feature</h2>
+                    <p class="lead">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
+                </article>
+                <div class="wow fadeInUp features list-unstyled row">
+                    <li class="col-xs-12 col-sm-6  col-md-3">
+                        <img src="images/Features/s1.png">
+                        <h4>Clean Design</h4>
+                        <p>We use a customized application specifically designed a testing gnose to keep away for people</p>
+                    </li>
+                    <li class="col-xs-12 col-sm-6  col-md-3">
+                        <img src="images/Features/s2.png">
+                        <h4>Bright color</h4>
+                        <p>We use a customized application specifically designed a testing gnose to keep away for people</p>
+                    </li>
+                    <li class="col-xs-12 col-sm-6  col-md-3">
+                        <img src="images/Features/s3.png">
+                        <h4>Multiple Demos</h4>
+                        <p>We use a customized application specifically designed a testing gnose to keep away for people</p>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-3">
+                        <img src="images/Features/s4.png">
+                        <h4>Documentation</h4>
+                        <p>We use a customized application specifically designed a testing gnose to keep away for people</p>
+                    </li>
+                </div>
+            </div>
+        </section>
+        <!--end Features-->
+        <!--start skills, screens-->
+        <section id="skills">
+            <div class="container">
+                    <article class="col-xs-12 col-md-6">
+                        <div class="head">
+                            <h1>Experience &amp; Skilled</h1>
+                            <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolor erat, sed diam voluptua.</p>
+                        </div>
+                        <div class="content">
+                            <h4>Multiple Dicussion</h4>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            <h4>Feature Integration</h4>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            <h4>Super Fast Performance</h4>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                        </div>
+                    </article>
+                    <div class="wow fadeInUp img col-xs-12 col-md-6"><img  src="images/Skills/mbl2.png"></div>
+            </div>
+        </section>
+        <section id="screens">
+            <img src="images/Skills/bgi.png" style="margin: -270px 0 0 -20px;">
+            <div class="container">
+                <article class="col-xs-12">
+                    <h2>Amazing Screens</h2>
+                    <p class="lead">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
+                </article>
+                <div class="swiper">
+                    <!-- Swiper -->
+                    <div class="swiper-container two">
+                        <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider-image">
+                                        <img src="images/screens/Screen-one.png">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-image">
+                                        <img src="images/screens/App-01.png">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-image">
+                                        <img src="images/screens/App-02.png">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-image">
+                                        <img src="images/screens/App-3.png">
+                                    </div>
+                                </div>
+                                
+                                        <!-- Add Pagination -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end skills, screens-->
+        <!--start questions-->
+        <section id="Ask-Questions">
+            <div class="container">
+                    <article class="col-xs-12 col-md-6">
+                        <div class="head">
+                            <h1>Frequently Ask Question</h1>
+                            <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam.</p>
+                        </div>
+                        <div class="content">
+                            <div class="first active">
+                                <h4><i class="fa fa-plus-circle fa-minus-circle" aria-hidden="true"></i>Interdum lobortis pretium ornare?</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                            <div class="second">
+                                <h4><i class="fa fa-plus-circle" aria-hidden="true"></i>Interdum lobortis pretium  eirmod tempor ornare?</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                            <div class="third">
+                                <h4><i class="fa fa-plus-circle" aria-hidden="true"></i>Interdum lobortis ornare?</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="wow fadeInUp img col-xs-12 col-md-6"><img src="images/Ask-questions/mbl3.png"></div>
+            </div>
+        </section>
+        <!--end questions-->
+        <!--start Testimonials-->
+        <section id="Testimonials">
+            <img src="images/Skills/bgi.png" style="margin: -270px -20px 0 0;float: right;transform: rotate(180deg)">
+            <div class="container">
+                <article class="col-xs-12">
+                    <h2>Testimonials</h2>
+                    <p class="lead">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
+                </article>
+                <div class="testi col-xs-12">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <img src="images/Testimonial/t1.jpg">
+                                    <h4>Ian roman</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam erat sed diam voluptua.</p>
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <img src="images/Testimonial/t2.jpg">
+                                    <h4>Reza khan</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam erat sed diam voluptua.</p>
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <img src="images/Testimonial/t3.jpg">
+                                    <h4>Kausar alam</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam erat sed diam voluptua.</p>
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <img src="images/Testimonial/t4.jpg">
+                                    <h4>Akramul hasan</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam erat sed diam voluptua.</p>
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="swiper-pagination"></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!--end Testimonials-->
+        <!--start our-team-->
+        <section id="Our-team">
+            <div class="container">
+                <article class="col-xs-12">
+                    <h2>Experts Team</h2>
+                    <p class="lead">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
+                </article>
+                <div class="team row">
+                    <div class="mates text-center col-xs-12 col-md-6 col-lg-3">
+                        <figure>
+                            <img src="images/Our-Team/tem1.png">
+                        </figure>
+                        <h3>Mahedi Amin</h3>
+                        <p>Front-End Developer</p>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>
+                    <div class="mates text-center col-xs-12 col-md-6 col-lg-3">
+                        <figure>
+                            <img src="images/Our-Team/tem2.png">
+                        </figure>
+                        <h3>Arina Merin</h3>
+                        <p>Co-Founder</p>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>    
+                    <div class="mates text-center col-xs-12 col-md-6 col-lg-3">
+                        <figure>
+                            <img src="images/Our-Team/tem3.png">
+                        </figure>
+                        <h3>Tomoy Khan</h3>
+                        <p>UI Designer</p>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>    
+                    <div class="mates text-center col-xs-12 col-md-6 col-lg-3">
+                        <figure>
+                            <img src="images/Our-Team/tem4.png">
+                        </figure>
+                        <h3>Nazmul Hasan</h3>
+                        <p>PHP Developer</p>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <!--end our-team-->
+        <!-- start pricing-->
+         <section id="pricing">
+            <img src="images/Skills/bgi.png" style="margin: -270px 0 0 -20px;">
+            <div class="container">
+                <article class="col-xs-12">
+                    <h2>Bubble Pricing</h2>
+                    <p class="lead">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
+                </article>
+                <div class="pricing-list text-center row">
+                    <div class="wow fadeInLeft plans col-xs-12 col-md-4">   
+                        <div>
+                            <h3>Stater Plan</h3>
+                            <span>FREE</span>
+                            <p>FOREVER</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor inviduntrebum.</p>
+                            <button>CHOOSE</button>
+                        </div>
+                    </div>     
+                    <div class="wow fadeInUp plans col-xs-12 col-md-4">   
+                        <div>
+                            <h3>Enterprise Plan</h3>
+                            <span>$25</span>
+                            <p>MONTH</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor inviduntrebum.</p>
+                            <button>CHOOSE</button>
+                        </div>
+                    </div>     
+                    <div class="wow fadeInRight plans col-xs-12 col-md-4">   
+                        <div>
+                            <h3>Unlimited Plan</h3>
+                            <span>$40</span>
+                            <p>MONTH</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor inviduntrebum.</p>
+                            <button>CHOOSE</button>
+                        </div>
+                    </div>     
+                </div>
+             </div>
+        </section>
+        <!-- end pricing-->
+        <!-- start brands-->
+        <section id="brands">
+            <div class="container">
+                <div class="logos row">
+                    <div class="col-xs-6 col-md-3" ><img src="images/brands/brand1.png"></div>
+                    <div class="col-xs-6 col-md-3" ><img src="images/brands/brand2.png"></div>
+                    <div class="col-xs-6 col-md-3" ><img src="images/brands/brand3.png"></div>
+                    <div class="col-xs-6 col-md-3" ><img src="images/brands/brand1.png"></div>
+                </div>
+            </div>
+        </section>
+        <!-- end brands-->
+        <!-- start contact-->
+        <section id="contact">
+            <div class="container">
+                <div class="info">
+                    <h2>Get In Touch</h2>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h3><i class="fa fa-map-marker" aria-hidden="true"></i>Address</h3>
+                        <p>Inner Circular Road 555,<br>New York City, USA.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h3><i class="fa fa-phone" aria-hidden="true"></i>Phone</h3>
+                        <p>Inner Circular Road 555,<br>New York City, USA.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h3><i class="fa fa-envelope" aria-hidden="true"></i>Email</h3>
+                        <p>infoname@gmail.com<br>mahedispellbit@gmail.com</p>
+                    </div>
+                </div>
+                <div class="form">
+                    <form>
+                        <div class="col-xs-12 col-md-6"><input type="text" placeholder="Name" required></div>
+                        <div class="col-xs-12 col-md-6"><input type="text" placeholder="Mobile" required></div>
+                        <div class="col-xs-12 col-md-6"><input type="email" placeholder="E-mail" required></div>
+                        <div class="col-xs-12 col-md-6"><input type="text" placeholder="Subject" required></div>
+                        <div class="col-xs-12"><textarea placeholder="Write your Message" required></textarea></div>
+                        <div class="col-xs-12"><input type="submit" value="SEND"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end contact-->
+        <!-- start footer-->
+        <footer>
+            <div class="container">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <h3>Bubble</h3>
+                    <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr invidunt.</p>
+                    <p>©2018 <span>Bubble</span> All Rights Reserved</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <h3>Company</h3>
+                    <ul class="list-unstyled">
+                        <li>Home</li>
+                        <li>Feature</li>
+                        <li>Overview</li>
+                        <li>Pricing</li>
+                        <li>Team</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <h3>Useful Link</h3>
+                    <ul class="list-unstyled">
+                        <li>Term &amp; Condition</li>
+                        <li>Privacy Policy</li>
+                        <li>Recent News</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <h3>Company</h3>
+                    <ul class="list-unstyled">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>instagram</li>
+                        <li>Linkedin</li>
+                        <li>instagram</li>
+                        <li>Others</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer-->
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/jquery.ripples-min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/js.js" ></script>
+    </body>
+</html>
